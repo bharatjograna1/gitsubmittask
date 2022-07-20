@@ -1,0 +1,23 @@
+/**
+ * Developed By: Bharat Jograna
+ * Created on: 04 July 2022
+ * update: 20 July 2022
+*/
+.profile-card {
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid #555BFF;
+  margin: calc(15vh - 75px) auto 0 auto;
+  transition: box-shadow 1s, top 1s, left 1s;
+  position: relative;
+  top: 0;
+  left: 0;
+  box-shadow: 5px -5px 0 -3px white, 5px -5px #1FC11B,
+        10px -10px 0 -3px white, 10px -10px #FF5555;
+}
+
+.profile-card:hover {
+  top: -10px;
+  box-shadow: 0 0 0 -3px white, 0 0 0 0 #1FC11B,
+      0 0 0 -3px  white, 0 0 0 0  #FF5555;
+}
